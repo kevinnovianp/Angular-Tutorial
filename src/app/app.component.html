@@ -73,13 +73,17 @@
 <!-- <p [style.color]="color" [style.background-color]="bgColor">Hello</p>
 <button (click)="updateColor()">Update Color</button> -->
 
-<form action="" #basicForm="ngForm" (submit)="getFormData(basicForm.value)">
+<!-- <form action="" #basicForm="ngForm" (submit)="getFormData(basicForm.value)">
   <input type="text" ngModel name="name" placeholder="Enter user name"><br><br>
   <input type="text" ngModel name="email" placeholder="Enter user email"><br><br>
   <input type="text" ngModel name="password" placeholder="Enter user password"><br><br>
   <button>Register</button>
 </form>
-
 <ul>
   <li>{{userData.name}}</li>
-</ul>
+  <li>{{userData.email}}</li>
+  <li>{{userData.password}}</li>
+</ul> -->
+
+<button (click)="toggle()">Toggle</button>
+<p *ngIf="display">I am here...</p>

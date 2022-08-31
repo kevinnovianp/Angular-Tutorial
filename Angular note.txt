@@ -1,0 +1,26 @@
+#6
+ng help		//tampilin command2 lain
+ng g c login
+ng g c register
+ng g c profile
+ng g module user-auth
+ng g c user-auth/sign-in	//buat komponen sign-in di dalam module user-auth
+ng g c class Dummy		//buat class Dummy
+ng g service api-service
+ng g service user-auth/test-service
+ng build
+
+#8
+ng g c user-list --inline-style     //no css (css di ts)
+ng g c student-list --inline-template   //no html (html di ts)
+ng g c country --inline-style --inline-template     //no css & html
+
+#9
+ng g module user-auth
+ng g c user-auth/login	//kalau mau akses login.html dari app.html, harus export LoginComponent di user-auth.module
+
+#10
+any -> var yang bisa digunakan untuk menampung semua jenis tipe var (string, number, object, array, dll)
+
+#25
+ng add @ng-bootstrap/ng-bootstrap

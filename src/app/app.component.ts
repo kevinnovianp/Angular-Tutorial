@@ -53,9 +53,14 @@ export class AppComponent {
   //   this.bgColor = 'black'
   // }
 
-  userData:any={}
-  getFormData(data:NgForm){
-    console.warn(data)
-    this.userData=data
+  // userData:any={}
+  // getFormData(data:NgForm){
+  //   console.warn(data)
+  //   this.userData=data
+  // }
+
+  display=false
+  toggle(){
+    this.display= !this.display
   }
 }
