@@ -59,8 +59,8 @@ export class AppComponent {
   //   this.userData=data
   // }
 
-  display=false
-  toggle(){
-    this.display= !this.display
-  }
+  // display=false
+  // toggle(){
+  //   this.display= !this.display
+  // }
 }
