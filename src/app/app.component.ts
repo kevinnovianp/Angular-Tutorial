@@ -63,4 +63,27 @@ export class AppComponent {
   // toggle(){
   //   this.display= !this.display
   // }
+
+
+  // id=1
+  // tasks:any[] = [];
+  // addTask(task:string){
+  //   if(!task) alert("Input must be filled!")
+  //   else{
+  //     // this.tasks.push({id:this.tasks.length, name:task})
+  //     this.tasks.push({id:this.id++, name:task, done:false})
+  //     console.warn(this.tasks)
+  //   }
+  // }
+  // deleteTask(id:number){
+  //   this.tasks = this.tasks.filter(task=>task.id!==id)
+  // }
+  // doneTask(id:number){
+  //   this.tasks[this.tasks.findIndex(t => t.id === id)].done = true;
+  // }
+
+  data = 10
+  updateData(){
+    this.data=Math.floor(Math.random()*20)+1 //1-20
+  }
 }

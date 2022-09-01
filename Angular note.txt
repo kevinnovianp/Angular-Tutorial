@@ -24,3 +24,6 @@ any -> var yang bisa digunakan untuk menampung semua jenis tipe var (string, num
 
 #25
 ng add @ng-bootstrap/ng-bootstrap
+
+#26
+ng add @angular/material

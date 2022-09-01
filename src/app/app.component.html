@@ -88,12 +88,11 @@
 <!-- <button (click)="toggle()">Toggle</button>
 <p *ngIf="display">I am here...</p> -->
 
-<p>
+<!-- <p>
   <ngb-alert [dismissible]="false">
     <strong>Warning!</strong> Better check yourself, you're not looking too good.
   </ngb-alert>
 </p>
-
 <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
   <ngb-panel title="Simple">
     <ng-template ngbPanelContent>
@@ -128,4 +127,27 @@
       labore sustainable VHS.
     </ng-template>
   </ngb-panel>
-</ngb-accordion>
+</ngb-accordion> -->
+
+<!-- <mat-slider min="1" max="100" step="1" value="50"></mat-slider>
+<div class="example-label">Raised</div>
+  <div class="example-button-row">
+    <button mat-raised-button>Basic</button>
+    <button mat-raised-button color="primary">Primary</button>
+    <button mat-raised-button color="accent">Accent</button>
+    <button mat-raised-button color="warn">Warn</button>
+    <button mat-raised-button disabled>Disabled</button>
+    <a mat-raised-button href="https://www.google.com/" target="_blank">Link</a>
+  </div> -->
+
+
+<!-- <input type="text" name="" placeholder="Enter New Task" #task>
+<button (click)="addTask(task.value)">Add New Task</button><br><br>
+<ul *ngFor="let t of tasks">
+  <li>
+    <span [ngStyle]="{'text-decoration': (t.done==true) ? 'line-through' : ''}">{{t.name}}</span> &nbsp;<button (click)="deleteTask(t.id)">Delete</button> <button (click)="doneTask(t.id)">Done</button>
+  </li>
+</ul> -->
+
+<app-child [item]="data"></app-child>
+<button (click)="updateData()">Update Child Component</button>
